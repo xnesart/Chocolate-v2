@@ -82,8 +82,8 @@ $(document).ready(function () {
     smartSpeed: 2000,
     autoplayHoverPause: true,
     navText: [
-      "<img src='../img/index/slider/left-arrow.svg'>",
-      "<img src='../img/index/slider/right-arrow.svg'>",
+      "<img src='img/index/slider/left-arrow.svg'>",
+      "<img src='img/index/slider/right-arrow.svg'>",
     ],
     responsive: {
       0: {
