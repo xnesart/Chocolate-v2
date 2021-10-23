@@ -48,6 +48,11 @@ $(document).ready(function () {
       0: {
         items: 1,
       },
+      400: {
+        items: 1,
+        dots: true,
+        nav: false,
+      },
       600: {
         items: 1,
       },
@@ -71,6 +76,11 @@ $(document).ready(function () {
     responsive: {
       0: {
         items: 1,
+      },
+      400: {
+        items: 1,
+        dots: true,
+        nav: false,
       },
       600: {
         items: 1,
@@ -98,6 +108,13 @@ $(document).ready(function () {
     responsive: {
       0: {
         items: 1,
+      },
+      400: {
+        items: 1,
+        dots: true,
+        nav: false,
+        margin: 100,
+        autoHeight: true,
       },
       600: {
         items: 1,
