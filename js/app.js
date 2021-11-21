@@ -97,11 +97,12 @@ $(document).ready(function () {
 $(document).ready(function () {
   const slider = $("#feedback__slider").owlCarousel({
     loop: true,
-    margin: 10,
+    margin: 100,
     nav: true,
     dots: false,
     autoplay: true,
-    autoWidth: true,
+    // autoWidth: true,
+    center: true,
     // autoHeight: true,
     autoplayTimeout: 5000,
     smartSpeed: 2000,
