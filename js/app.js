@@ -76,10 +76,12 @@ $(document).ready(function () {
     responsive: {
       0: {
         items: 1,
+        dots: false,
+        nav: false,
       },
       400: {
         items: 1,
-        dots: true,
+        dots: false,
         nav: false,
       },
       600: {
@@ -108,10 +110,14 @@ $(document).ready(function () {
     responsive: {
       0: {
         items: 1,
+        dots: false,
+        nav: false,
+        margin: 100,
+        autoHeight: true,
       },
       400: {
         items: 1,
-        dots: true,
+        dots: false,
         nav: false,
         margin: 100,
         autoHeight: true,
